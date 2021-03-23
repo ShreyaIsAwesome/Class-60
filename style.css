@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#SpriteLab {
+    background-color: fuchsia;
+}
+
+#Chatbot {
+    background-color: aqua;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
